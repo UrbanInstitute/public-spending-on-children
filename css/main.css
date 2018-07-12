@@ -429,6 +429,9 @@ nav a:visited {
 .clearfix {
     *zoom: 1;
 }
+img.printLogo{
+    display: none;
+}
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -495,6 +498,15 @@ nav a:visited {
     h1, .main.wrapper.clearfix{
         padding-top: 0px !important;
     }
+    img.printLogo{
+        display: block;
+        width: 40mm;
+        margin-bottom: 10mm;
+    }
+    img.printLogo.bottom{
+        margin-bottom: 0mm;
+        margin-top: 10mm;
+    }
   @page {
     size: 210mm 297mm; /* portrait 
     /* you can also specify margins here: */
@@ -513,6 +525,9 @@ nav a:visited {
     padding-left: 0px;
     left: 0px;
 
+}
+.aside-content img.tallPrint{
+    width: 150mm;
 }
    /*{ height:0; page-break-after:always; margin:0; border-top:none; }*/
 

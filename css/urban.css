@@ -462,7 +462,7 @@ footer h3, footer h4{
 
 /*browser windows smaller than 850px*/
 @media (max-width: 1100px) {
-  .wrapper {width: calc(100% - 40px); padding-top:100px;}
+  .wrapper {width: calc(100% - 40px); padding-top:50px;}
   .content {width:auto; padding:0px 30px}
   .container {width:auto; padding:0px 30px; margin-bottom: 40px;}
   ul {margin-left: 15px;}
@@ -476,6 +476,6 @@ footer h3, footer h4{
 /*browser windows smaller than 850px*/
 @media (max-width: 600px) {
    .wrapper {padding-top:80px;} 
-   .headerimage{ height:250px;}
+   .headerimage{ height:0px;}
     h1{font-size: 45px;padding-top: 100px;}
     .overhalf{width:100%;}
