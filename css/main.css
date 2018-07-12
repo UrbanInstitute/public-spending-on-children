@@ -239,6 +239,8 @@ body {
     padding-left: 30px;
     padding-top: 30px;
     font: 400 30px/36px Lato, sans-serif;
+    font-size: 36px;
+    text-align: center;
 }
 .intro-text {
     /*font: 400 16px Lato, sans-serif;*/
@@ -250,7 +252,7 @@ body {
 .main-image {
     background-image: url("../img/header.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     height: 500px;
     max-width: 100%;
 }
@@ -717,8 +719,10 @@ footer p{
 }
 #updatedNote{
     font-style: italic;
-    margin-top: 14px;
+    margin-top: 10px;
     font-size: 15px;
+    left: calc(50% - 343px);
+    position: relative;
 }
 #correction{
     font-size: 13px;
