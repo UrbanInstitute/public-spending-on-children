@@ -433,6 +433,7 @@ nav a:visited {
 }
 img.printLogo{
     display: none;
+    background: none;
 }
 /* ==========================================================================
    Print styles
