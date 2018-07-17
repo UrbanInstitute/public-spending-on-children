@@ -510,6 +510,15 @@ img.printLogo{
         margin-bottom: 0mm;
         margin-top: 10mm;
     }
+    html, body{
+        width: 210mm;
+    }
+    #left, #right{
+        clear: both !important;
+        width: 210mm !important;
+        float: left !important;
+        left: 0px !important;
+    }
   @page {
     size: 210mm 297mm; /* portrait 
     /* you can also specify margins here: */
@@ -522,7 +531,7 @@ img.printLogo{
     margin-bottom: 10mm;
   }
 .aside-content img{
-    width: 210mm;
+    width: 150mm;
     display: block;
     margin-left: 0px;
     padding-left: 0px;
