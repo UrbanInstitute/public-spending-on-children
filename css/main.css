@@ -513,6 +513,9 @@ img.printLogo{
     html, body{
         width: 210mm;
     }
+    .footerButton{
+        display: none;
+    }
     #left, #right{
         clear: both !important;
         width: 210mm !important;
@@ -718,7 +721,7 @@ footer p{
     text-decoration: none !important;
     color: #333 !important;
     margin: 14px 0;
-        width: 143px !important;
+        width: 187px !important;
     margin-right: 10px;
 }
 .footerButton a{

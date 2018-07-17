@@ -324,7 +324,7 @@ h4 {
 .footerButton{
   float: left;
   height: 40px;
-  width: 135px;
+  width: 185px;
   border: 1px solid #333;
   cursor: pointer;
   font: 13px Lato;
@@ -335,7 +335,7 @@ h4 {
   color: #333 !important;
 }
 .footerButton:hover{
-  background: #FCB64B;
+  background: #fdbf11;
   color: #fff !important;
 }
 .footerButton.researchButton{
