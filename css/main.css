@@ -518,7 +518,7 @@ img.printLogo{
     }
     #left, #right{
         clear: both !important;
-        width: 210mm !important;
+        width: 190mm !important;
         float: left !important;
         left: 0px !important;
     }
@@ -551,6 +551,10 @@ img.printLogo{
     }
     .main-image {
         display: none;
+    }
+    .main p{
+        /*font-size: 12px;*/
+        line-height: 1.2;
     }
     .main aside {
         margin: 0 auto;
